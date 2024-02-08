@@ -1,0 +1,89 @@
+; https://ledger-cli.org/doc/ledger3.html#index-account
+
+commodity EUR
+commodity BTC
+commodity USD
+
+;; ASSETS
+
+account Assets:Cash:Main
+    note Day-to-day use cash in my wallet.
+    alias cash
+    check commodity == "EUR"
+    assert commodity == "EUR"
+
+account Assets:Cards:Bank
+    note It's my main account in Bank, where my salary comes in and from where most of my expenses occur.
+    alias card
+    check commodity == "EUR"
+    assert commodity == "EUR"
+
+account Assets:Cards:Bank-USD
+    check commodity == "USD"
+    assert commodity == "USD"
+
+account Assets:Crypto:BTC
+    check commodity == "BTC"
+    assert commodity == "BTC"
+
+;; Equity
+account Equity:Opening-Balance
+account Equity:Correction
+
+;; Incomes
+account Income:Salary
+
+;; EXPENSES
+
+account Expenses:Common:Other
+account Expenses:Common:Missing
+
+
+account Expenses:Housing:Rent
+account Expenses:Housing:Repairs
+account Expenses:Housing:Supplies
+
+account Expenses:Utilities:Electricity
+account Expenses:Utilities:Phones
+account Expenses:Utilities:Internet
+
+account Expenses:Food:Groceries
+account Expenses:Food:Eat-Out
+    alias eat
+account Expenses:Food:Coffee
+
+account Expenses:Healthcare:Dental
+account Expenses:Healthcare:Primary
+account Expenses:Healthcare:Urgent
+account Expenses:Healthcare:Medications
+
+account Expenses:Transportation:Car:Gas
+account Expenses:Transportation:Car:Repairs
+account Expenses:Transportation:Car:Maintenance
+account Expenses:Transportation:Car:Payment
+account Expenses:Transportation:Car:Insurance
+account Expenses:Transportation:Car:Tires
+
+account Expenses:Personal:Haircuts
+account Expenses:Personal:Subscriptions
+account Expenses:Personal:Books
+account Expenses:Personal:Ebooks
+account Expenses:Personal:Devices
+account Expenses:Personal:Presents
+
+account Expenses:Addictions:Ecig
+account Expenses:Addictions:Liquids
+account Expenses:Addictions:Cigarettes
+
+account Expenses:Child:Babysitter
+account Expenses:Child:Classes
+account Expenses:Child:Kindergarten
+account Expenses:Child:Kindergarten-Additional
+
+account Expenses:Vacations:Tickets
+account Expenses:Vacations:Accommodations
+account Expenses:Vacations:Insurance
+account Expenses:Vacations:Car
+
+account Expenses:Clothing:Adults
+account Expenses:Clothing:Childrens

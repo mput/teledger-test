@@ -1,0 +1,26 @@
+include accounts.ledger
+
+2024-02-04 * Reconcile
+    Assets:Cash:Main                            =100 EUR
+    Assets:Cards:Bank                       =1000,00 EUR
+    Equity:Opening-Balance
+
+2024-02-04 * Cigs
+    Expenses:Addictions:Cigarettes                 4 EUR
+    card
+
+2024-02-05 * Hetzner
+    Expenses:Personal:Subscriptions             6,55 EUR
+    card
+
+2024/02/06 * Chat GPT
+    Expenses:Food:Eat-Out                      18,65 EUR
+    Assets:Cards:Bank
+
+2024/02/07 * Oliva
+    Expenses:Food:Eat-Out                       9,70 EUR
+    Assets:Cards:Bank
+
+2024/02/07 * Coffee
+    Expenses:Food:Coffee                        11,8 EUR
+    card
