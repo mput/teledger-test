@@ -1,0 +1,10 @@
+strict: true
+reports:
+  - title: Expenses This Months
+    command: [bal, ^Expenses, --cleared, --period, "this month", -X, EUR ]
+
+  - title: Expenses Last Months
+    command: [bal, ^Expenses, --cleared, --period, "last month", -X, EUR ]
+
+  - title: 💶 Assets
+    command: [bal, ^Assets]
