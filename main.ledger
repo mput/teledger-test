@@ -30,3 +30,9 @@ include accounts.ledger
 2024-07-25 * Food expense for eating out
     Expenses:Food:Eat-Out  1.000,00 EUR
     Assets:Cash:Main  -1.000,00 EUR
+
+;; tid:2024-07-25 13:09:56.212 Thu
+;; 1000 eat
+2024-07-25 * Expense for eating out
+    Expenses:Food:Eat-Out  1.000,00 EUR
+    Assets:Cash:Main  -1.000,00 EUR
