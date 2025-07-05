@@ -24,3 +24,9 @@ include accounts.ledger
 2024/02/07 * Coffee
     Expenses:Food:Coffee                        11.80 EUR
     card
+
+;; tid:2025-07-05 19:09:42.057 Sat
+;; 12 from bank to main
+2025-07-05 * Transfer from bank to main cash account
+    Assets:Cash:Main  12.00 EUR
+    Assets:Cards:Bank  -12.00 EUR
