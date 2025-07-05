@@ -22,11 +22,5 @@ include accounts.ledger
     Assets:Cards:Bank
 
 2024/02/07 * Coffee
-    Expenses:Food:Coffee                        11.8 EUR
+    Expenses:Food:Coffee                        11.80 EUR
     card
-
-;; tid:2024-07-25 13:08:47.047 Thu
-;; 1000 eat
-2024-07-25 * Food expense for eating out
-    Expenses:Food:Eat-Out  1.000,00 EUR
-    Assets:Cash:Main  -1.000,00 EUR
