@@ -1,4 +1,6 @@
 strict: true
+users:
+  - id: 156087371
 reports:
   - title: Expenses This Months
     command: [bal, ^Expenses, --cleared, --period, "this month", -X, EUR ]
