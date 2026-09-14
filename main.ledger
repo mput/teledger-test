@@ -30,9 +30,3 @@ include accounts.ledger
 2025-07-05 * Transfer from bank to main cash account
     Assets:Cash:Main  12.00 EUR
     Assets:Cards:Bank  -12.00 EUR
-
-;; tid:2026-09-14 22:49:31.427 Mon
-;; 12 from bank to main
-2026-09-14 * Transfer from bank to main cash
-    Assets:Cards:Bank  -12.00 EUR
-    Assets:Cash:Main  12.00 EUR
